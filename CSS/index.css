@@ -1,6 +1,6 @@
 .bg{
     background: linear-gradient(to bottom, #0f0f0f 50%, white 50%);
-    height: 60vh;
+    height: 80vh;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -64,42 +64,7 @@
     width: 100%;
 }
 
-.introduction__text {
-    display: inline;
-    width: 90%;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 4px solid;
-    animation: typing 2s steps(60), blink .5s infinite step-end alternate;
-}
-
-#animatedText1 {
-    white-space: nowrap;
-}
-
-#animatedText2 {
-    white-space: nowrap;
-}
-  
-#animatedText3 {
-    white-space: nowrap;
-}
-
-#animatedText4 {
-    white-space: nowrap;
-}
-
-#animatedText5 {
-    white-space: nowrap;
-}
-
-@keyframes typing {
-    from { width: 0; }
-    to { width: 100%; } /* Ajusta el ancho al 100% del div */
-}
-
-@keyframes blink {
-    50% {
-      border-color: transparent;
-    }
+.introduction__text{
+    text-align: justify;
+    width: 85%;
 }
