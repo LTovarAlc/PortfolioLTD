@@ -68,3 +68,28 @@
     text-align: justify;
     width: 85%;
 }
+
+.snowflake {
+  top: 10%;
+  right: 0;
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  border-radius: 50%;
+  pointer-events: none;
+  animation: fall linear infinite;
+  z-index: 1;
+}
+
+.bg .snowflake{
+    position: absolute;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
