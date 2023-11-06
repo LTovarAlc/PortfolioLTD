@@ -1,0 +1,28 @@
+.socialMedia__lateral-bar{
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 12px 12px 0px;
+}
+
+.link__icons-lateral_bar{
+    display: block;
+    text-decoration: none;
+    margin: 10px 0px;
+}
+
+.icons__lateral-bar{
+    width: 40px;
+    transition: tranform 0.3s ease;
+    cursor: pointer;
+}
+
+.icons__lateral-bar:hover{
+    transform: scale(1.2);
+}
