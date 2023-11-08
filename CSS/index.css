@@ -69,7 +69,7 @@
     width: 85%;
 }
 
-.snowflake {
+/* .snowflake {
   top: 10%;
   right: 0;
   width: 5px;
@@ -92,4 +92,4 @@
   100% {
     transform: translateY(100vh);
   }
-}
+} */
