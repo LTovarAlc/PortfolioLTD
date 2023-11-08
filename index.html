@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="CSS/socialMediaBar.css">
     <link rel="stylesheet" href="CSS/toUp.css">
+    <link rel="stylesheet" href="CSS/contactModal.css">
   </head>
   <body>
     <header class="header">
@@ -338,8 +339,29 @@
     <div class="toUp__container" id="toTop">
       <img src="img/upArrow.png" alt="To up" class="toUp">
     </div>
+    <div class="modal" id="contactModal">
+      <div class="modal__content">
+        <h1 class="modal__title">Contact me</h1>
+        <div class="contact__form">
+          <form action="tu-script-de-procesamiento.php" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+      
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+      
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Hello Luis Tovar, I'd like to get in touch with you soon."></textarea>
+      
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      
+      </div>
+    </div>
     <script src="Scripts/smothscroll.js"></script>
     <script src="Scripts/toTop.js"></script>
-    <script src="Scripts/snowFlakes.js"></script>
+    <!-- <script src="Scripts/snowFlakes.js"></script> -->
+    <script src="Scripts/contactModal.js"></script>
   </body>
 </html>

@@ -1,0 +1,26 @@
+body.modal-open{
+    overflow: hidden;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+}
+
+.modal__content{
+    background-color: #fff;
+    margin: 200px;
+    padding: 64px 32px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 6px #000 groove;
+}
