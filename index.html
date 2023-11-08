@@ -16,10 +16,10 @@
     <link rel="stylesheet" href="CSS/skills.css" />
     <link rel="stylesheet" href="CSS/projects.css" />
     <link rel="stylesheet" href="CSS/formation.css" />
-    <link rel="stylesheet" href="CSS/footer.css">
-    <link rel="stylesheet" href="CSS/socialMediaBar.css">
-    <link rel="stylesheet" href="CSS/toUp.css">
-    <link rel="stylesheet" href="CSS/contactModal.css">
+    <link rel="stylesheet" href="CSS/footer.css" />
+    <link rel="stylesheet" href="CSS/socialMediaBar.css" />
+    <link rel="stylesheet" href="CSS/toUp.css" />
+    <link rel="stylesheet" href="CSS/contactModal.css" />
   </head>
   <body>
     <header class="header">
@@ -323,40 +323,102 @@
           <span class="FD__footer">FrontEnd Developer</span>
         </div>
         <div class="footer__icons-info">
-          <a href="https://twitter.com/LTovarDev" target="_blank" class="links__icons-footer"><img src="img/x.png" alt="" class="icons__footer"></a>
-          <a href="https://github.com/LTovarAlc" target="_blank" class="links__icons-footer"><img src="img/github.png" alt="" class="icons__footer"></a>
-          <a href="https://www.linkedin.com/in/ltovardev/" target="_blank" class="links__icons-footer"><img src="img/linkedin.png" alt="" class="icons__footer"></a>
-          <a href="https://www.instagram.com/luis_tvr__/?hl=es-la" target="_blank" class="links__icons-footer"><img src="img/instagram.png" alt="" class="icons__footer"></a>
+          <a
+            href="https://twitter.com/LTovarDev"
+            target="_blank"
+            class="links__icons-footer"
+            ><img src="img/x.png" alt="" class="icons__footer"
+          /></a>
+          <a
+            href="https://github.com/LTovarAlc"
+            target="_blank"
+            class="links__icons-footer"
+            ><img src="img/github.png" alt="" class="icons__footer"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/ltovardev/"
+            target="_blank"
+            class="links__icons-footer"
+            ><img src="img/linkedin.png" alt="" class="icons__footer"
+          /></a>
+          <a
+            href="https://www.instagram.com/luis_tvr__/?hl=es-la"
+            target="_blank"
+            class="links__icons-footer"
+            ><img src="img/instagram.png" alt="" class="icons__footer"
+          /></a>
         </div>
       </section>
     </footer>
     <div class="socialMedia__lateral-bar">
-      <a href="https://twitter.com/LTovarDev" target="_blank" class="links__icons-lateral_bar"><img src="img/x.png" alt="" class="icons__lateral-bar"></a>
-      <a href="https://github.com/LTovarAlc" target="_blank" class="links__icons-lateral_bar"><img src="img/github.png" alt="" class="icons__lateral-bar"></a>
-      <a href="https://www.linkedin.com/in/ltovardev/" target="_blank" class="links__icons-lateral_bar"><img src="img/linkedin.png" alt="" class="icons__lateral-bar"></a>
-      <a href="https://www.instagram.com/luis_tvr__/?hl=es-la" target="_blank" class="links__icons-lateral_bar"><img src="img/instagram.png" alt="" class="icons__lateral-bar"></a>
+      <a
+        href="https://twitter.com/LTovarDev"
+        target="_blank"
+        class="links__icons-lateral_bar"
+        ><img src="img/x.png" alt="" class="icons__lateral-bar"
+      /></a>
+      <a
+        href="https://github.com/LTovarAlc"
+        target="_blank"
+        class="links__icons-lateral_bar"
+        ><img src="img/github.png" alt="" class="icons__lateral-bar"
+      /></a>
+      <a
+        href="https://www.linkedin.com/in/ltovardev/"
+        target="_blank"
+        class="links__icons-lateral_bar"
+        ><img src="img/linkedin.png" alt="" class="icons__lateral-bar"
+      /></a>
+      <a
+        href="https://www.instagram.com/luis_tvr__/?hl=es-la"
+        target="_blank"
+        class="links__icons-lateral_bar"
+        ><img src="img/instagram.png" alt="" class="icons__lateral-bar"
+      /></a>
     </div>
     <div class="toUp__container" id="toTop">
-      <img src="img/upArrow.png" alt="To up" class="toUp">
+      <img src="img/upArrow.png" alt="To up" class="toUp" />
     </div>
     <div class="modal" id="contactModal">
       <div class="modal__content">
         <h1 class="modal__title">Contact me</h1>
         <div class="contact__form">
-          <form action="tu-script-de-procesamiento.php" method="POST">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
-      
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
-      
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required placeholder="Hello Luis Tovar, I'd like to get in touch with you soon."></textarea>
-      
-            <button type="submit">Send</button>
+          <form class="form">
+            <div class="input__container">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                class="input__form"
+              />
+              <label for="name"  class="label">Name</label>
+            </div>
+            <div class="input__container">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                class="input__form"
+              />
+              <label for="email" class="label">Email</label>
+            </div>
+            <div class="input__container">
+              <textarea
+                id="message"
+                name="message"
+                required
+                class="input__form"
+              >
+Hello Luis Tovar, I'd like to get a meeting with you soon.</textarea
+              >
+              
+            </div>
+            <button type="submit" class="submit">Send</button>
           </form>
         </div>
-      
+        <span class="close"><img src="img/cerrar.png" alt="Close" class="close__img"></span>
       </div>
     </div>
     <script src="Scripts/smothscroll.js"></script>
