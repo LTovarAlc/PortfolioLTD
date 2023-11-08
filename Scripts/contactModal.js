@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const contactLinks = document.querySelectorAll(".links");
+    const contactLinks = document.querySelectorAll(".contactLink");
     const contactModal = document.getElementById("contactModal");
     const modalContent = contactModal.querySelector(".modal__content");
     const closeModalButton = contactModal.querySelector(".close");
@@ -22,5 +22,4 @@ document.addEventListener("DOMContentLoaded", function () {
       // Remueve la clase del cuerpo al cerrar el modal
       document.body.classList.remove("modal-open");
     });
-  });
-  
+});
