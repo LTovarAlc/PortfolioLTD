@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #fff;
 }
 
 .footer__container{
@@ -17,6 +18,7 @@
 
 .icons__footer{
     width: 30px;
+    filter: invert(100%);
 }
 
 .list__footer{

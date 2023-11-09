@@ -9,6 +9,7 @@
     width: 50px;
     cursor: pointer;
     border-radius: 5px;
+    filter: invert(100%);
 }
 
 .toUp:hover{
