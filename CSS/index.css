@@ -183,12 +183,21 @@ body {
   }
 }
 
-.astronaut{
+.astronaut {
   height: 225px;
   position: fixed;
   top: 80%;
-  right: 60%;
+  right: 68%;
   transform: translate(0, -50%);
   z-index: -3;
-  animation: rotateElement 30s linear infinite; 
+  animation: rotateElementAstronaut 30s linear infinite;
+}
+
+@keyframes rotateElementAstronaut {
+  from {
+    transform: translate(0, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(0, -50%) rotate(-360deg);
+  }
 }
