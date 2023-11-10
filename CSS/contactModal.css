@@ -1,34 +1,34 @@
-body.modal-open{
-    overflow: hidden;
+body.modal-open {
+  overflow: hidden;
 }
 
-.modal{
-    display: none;
-    position: fixed;
-    transform: translate(-50%, -50%);
-    z-index: 1001;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100vw;
-    height: 100vh;
-    font-family: 'Roboto', sans-serif;
+.modal {
+  display: none;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  z-index: 1001;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
 }
 
-.modal__content{
-    background-color: #FFF;
-    margin: 100px 300px;
-    padding: 64px 32px;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 12px;
-    border: 2px #000 groove;
+.modal__content {
+  background: rgba(0, 0, 0, 0.9);
+  margin: 100px 300px;
+  padding: 64px 32px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: 2px #fff groove;
 }
 
-.modal__title{
-    font-weight: 700;
-    font-size: 28px;
+.modal__title {
+  font-weight: 700;
+  font-size: 28px;
 }
 
 .contact__form {
@@ -45,7 +45,7 @@ body.modal-open{
 .input__container {
   display: flex;
   flex-direction: column;
-  position: relative; /* Añadido */
+  position: relative;
 }
 
 .input__form {
@@ -59,10 +59,13 @@ body.modal-open{
   background-color: #fff;
   margin-bottom: 20px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+  background: transparent;
+  border: 2px #fff solid;
+  color: #fff;
 }
 
 .input__form:focus {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.7);
 }
 
 .label {
@@ -71,38 +74,45 @@ body.modal-open{
   left: 12px;
   transition: 0.3s ease;
   pointer-events: none;
-  color: #888;
+  color: #fff;
   background-color: transparent;
 }
 
-.input__container input:focus + .label, .input__container input:valid + .label {
-  top: -10px;
+.input__container input:focus + .label,
+.input__container input:valid + .label {
+  top: -15px;
   font-size: 12px;
-  color: #333;
+  color: #979797;
 }
 
 .submit {
   width: 100px;
   height: 50px;
   border: none;
-  background-color: #c4c4c4;
+  background: rgba(0, 0, 0, 1);
+  color: #fff;
   border-radius: 12px;
   cursor: pointer;
   transition: 0.3s ease;
+  border: 2px #Fff solid;
+  font-size: 16px;
+  font-weight: bolder;
 }
 
-.submit:hover{
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+.submit:hover {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  color: #000;
 }
 
-.close{
-    position: fixed;
-    top: 17%;
-    right: 23%;
-    cursor: pointer;
+.close {
+  position: fixed;
+  top: 17%;
+  right: 23%;
+  cursor: pointer;
 }
 
-.close__img{
-    height: 30px;
+.close__img {
+  height: 30px;
+  filter: invert(100%);
 }
