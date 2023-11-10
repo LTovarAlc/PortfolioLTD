@@ -209,3 +209,7 @@ body {
     transform: translate(0, -50%) rotate(-360deg);
   }
 }
+
+#trick{
+  display: none;
+}
