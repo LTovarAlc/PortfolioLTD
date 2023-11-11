@@ -116,3 +116,9 @@ body.modal-open {
   height: 30px;
   filter: invert(100%);
 }
+
+.send__message{
+  width: 80%;
+  text-align: center;
+  margin-top: 12px;
+}
