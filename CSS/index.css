@@ -209,3 +209,38 @@ body {
     transform: translate(0, -50%) rotate(-360deg);
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .info{
+    width: 70%;
+  }
+  .bg{
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .info{
+    width: 60%;
+  }
+  .circle{
+    height: 120px;
+    width: 120px;
+  }
+  .imgme{
+    height: 120px;
+    width: 120px;
+  }
+  .bg{
+    height: 60vh;
+  }
+  .moon{
+    right: -40%;
+  }
+  .asteroid{
+    right: 60%;
+  }
+  .astronaut{
+    right: 50%;
+  }
+}

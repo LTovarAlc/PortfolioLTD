@@ -74,3 +74,37 @@
     color: #fff;
     text-decoration: underline;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .projects{
+        width: 92%;
+    }
+    .projects__container{
+        width: 80%;
+    }
+    .project{
+        width: 300px;
+        height: 200px;
+    }
+    .project__img{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .projects{
+        width: 86%;
+    }
+    .projects__container{
+        width: 74%;
+        display: flex;
+        flex-direction: column;
+    }
+    .project{
+        width: 300px;
+        height: 200px;
+    }
+    .project__img{
+        width: 200px;
+    }
+}

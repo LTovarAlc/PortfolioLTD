@@ -82,3 +82,15 @@
     font-weight: 500;
     margin-bottom: 8px;
 }
+
+@media screen and (max-width: 767px){
+    .formation__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .formation__card{
+        width: 150px;
+        height: 150%;
+    }
+}
